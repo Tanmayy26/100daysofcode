@@ -22,11 +22,11 @@ int main() {
 
     int arr[n];
 
-    for (int i = 0; i < n; i++) {
+    for (int i=0; i<n; i++) {
         cin >> arr[i];
     }
 
-    for (int i = 0; i<n; i++) {
+    for (int i=0; i<n; i++) {
         int flag = 0;
         for (int j=0; j<i; j++) {
             if (arr[i] == arr[j]) {
@@ -38,7 +38,7 @@ int main() {
         if (flag == 1)
             continue;
             int count = 0;
-            for (int j = 0; j < n; j++) {
+            for (int j=0; j<n; j++) {
             if (arr[i] == arr[j]) {
                 count++;
             }
